@@ -1,0 +1,26 @@
+{
+  "name": "tsuyoikaze",
+  "version": "0.0.1-dev",
+  "description": "A bot for tsuyoikaze.",
+  "main": "index.js",
+  "scripts": {
+    "lint:test": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "ragedesignss",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@discordjs/collection": "^0.1.5",
+    "better-sqlite3": "^7.1.0",
+    "chalk": "^2.4.2",
+    "discord.js": "github:discordjs/discord.js",
+    "dotenv": "^8.0.0",
+    "enmap": "^5.3.1",
+    "fs-nextra": "^0.4.5",
+    "klaw": "^3.0.0",
+    "moment": "^2.26.0",
+    "moment-duration-format": "^2.3.2",
+    "ms": "^2.1.2",
+    "winston": "^3.2.1"
+  }
+}
